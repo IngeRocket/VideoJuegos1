@@ -1,0 +1,199 @@
+POSICIONES ENEMIGOS
+enemigo 1
+X:107
+Z: 24
+
+enemigo 2
+X:101
+Z:99
+
+enemigo 3
+X:107
+Z:20
+
+
+programar movimientos
+
+7 modelos
+
+base x 6
+punta 1
+
+//bool iddle=true;
+movimiento enrollar
+6 bool para estado maximo giro iddle
+if (iddle && !maximo)
+punta[0] girar hasta 20°
+base[5]	//preguntar si el anterior ya llego a 20° comenzar a girar
+base[4] //preguntar si el anterior ya llego a 20° comenzar a girar
+base[3] //preguntar si el anterior ya llego a 20° comenzar a girar
+base[2] //preguntar si el anterior ya llego a 20° comenzar a girar
+base[1] //preguntar si el anterior ya llego a 20° comenzar a girar, maxino = true;
+base[0] //jamas mover, pilar del modelo
+//resultado enrollado
+
+
+if(iddle && maximo)
+----desenrollar
+base[1]  //Girar hasta llegar a 0°
+base[2]  //preguntar si el anterior llego a 0°
+base[3]  //preguntar si el anterior llego a 0°
+base[4]  //preguntar si el anterior llego a 0°
+base[5]  //preguntar si el anterior llego a 0°
+punta[0] //preguntar si el anterior llego a 0°
+
+repetir seceuncia
+//extra if iddle = true rotateY
+
+
+
+
+
+movimiento atacar	bool atack = true;
+todos los elementos deben estar en angulo 0
+
+base[5] //Girar hasta 90°, preguntar colision
+//si angulo = 90 atack= false;
+if(angulo = 0){
+iddle = true;
+}else{
+angulo -= 0.1f;
+iddle = false;
+}
+
+*nota giro:
+20° Golpe
+1° es excesivo, atraviesa modelo en espiral
+provar 0.020
+
+inicio 0.0;
+fin 0.3f
+aumentar 0.0001 per frame
+
+
+//billboards
+--se puede lograr con varios for
+extremo 1
+posiciones:
+X 4
+Y 17
+Z 3
+
+hasta  extremo 2
+X 83	X 123
+Y 17	Y 16
+Z 3	Z 2
+
+----extremo 2 a extremo 3
+medio:
+X 125
+Y 16
+Z 38
+
+
+otro medio hasta
+X 125		124
+Y 16		16
+Z 91		118
+
+
+-----
+inicio
+X 121		8
+Y 16		17
+Z 124		125 -- mantener en 125
+
+------4ta parte billboards
+X 1		2
+Y 17		17
+Z 123		7
+
+
+--linea a mapa
+X 4		21
+Y 16		16
+Z 57		58
+
+
+
+palmeras de cofre
+X 25		. 21
+Y 7		. 7
+Z 107		. 107
+
+
+//colider box enemigo (base)
+X 106
+Y 4
+Z 24
+
+
+
+
+
+
+
+
+
+
+
+
+//donde acabo palmera
+124 , 17 ,9
+hasta
+
+124 , 17 ,120
+
+//nuevo cuadro / linea
+118, 17, 123 
+acaba en 
+5, 17, 123
+
+//ultima linea for palmera
+X 1		1
+Y 16.5		20
+Z 122		5
+
+
+
+//siguiente modelo, linea media
+123, 16.5,82
+121, 16.5, 38
+
+
+//especial
+
+6 , 20 ,55
+24, 19, 57
+
+
+
+nuevo inicio
+27,19,58
+32,20,56
+
+35,20,55
+44,20,49
+
+46,20,48
+54,20,48
+
+
+
+
+//////
+31,20,57
+44,20,49
+
+
+//coral
+58,21,118
+77,20,119
+
+77,21,113
+62,20,113
+
+
+//arbusto
+116, 20,46
+116,20,64

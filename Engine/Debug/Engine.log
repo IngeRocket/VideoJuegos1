@@ -1,0 +1,20 @@
+﻿  applicationclass.cpp
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(686): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(836): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(923): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(923): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(935): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(943): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(955): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(964): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(973): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(982): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(994): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1002): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1057): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1081): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1292): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1395): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1579): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+c:\users\julio\desktop\videojuegos1\carpeta intento class enemy\plantilla v1\plantilla v1\engine\applicationclass.cpp(1888): warning C4305: 'argument': truncation from 'double' to 'FLOAT'
+  Engine.vcxproj -> C:\Users\Julio\Desktop\videojuegos1\carpeta intento class enemy\Plantilla V1\Plantilla V1\Debug\Engine.exe
